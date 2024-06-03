@@ -1,0 +1,19 @@
+{
+  "microservices": [
+    {
+      "microserviceId": "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+      "language": "Java",
+      "pic": "https://alllogo.info/wp-content/uploads/2022/06/Picsart_22-06-07_22-48-41-785.png"
+    },
+    {
+      "microserviceId": "7cf4b20d-573f-4909-9eae-b562fcbdd60a",
+      "language": "Python",
+      "pic": "https://wallpapercave.com/wp/wp8816357.jpg"
+    },
+    {
+      "microserviceId": "5a035c2d-f9e4-4f0e-8b0d-2159f2f5521a",
+      "language": "Csharp",
+      "pic": "https://lms.unialsolutions.com/nodeassets/1680073028541--C%20sharp%20icon.png"
+    }
+  ]
+}

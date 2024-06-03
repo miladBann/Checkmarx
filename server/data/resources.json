@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "name": "AMQ_1",
+      "access": "public",
+      "access_icon": "https://cdn-icons-png.flaticon.com/512/1040/1040005.png",
+      "fileName": "tmp/936296693/InfraForShop/amq_1.tf",
+      "type": "aws_mq_broker",
+      "type_icon": "https://th.bing.com/th/id/OIP.I4BDvFnss25-Xps9Dm9XuQAAAA?rs=1&pid=ImgDetMain",
+      "category": "Queues",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+        "7cf4b20d-573f-4909-9eae-b562fcbdd60a"
+      ]
+    },
+    {
+      "name": "MemCache_2",
+      "access": "unknown",
+      "access_icon": "https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/_Unknown.png",
+      "fileName": "tmp/936296693/InfraForShop/el_ache_2.tf",
+      "type": "aws_elasticache_cluster",
+      "type_icon": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/manage-databases-on-aws/images/12ff1e3adf6232bd122e3d4e33b0c7e0_072219-ce-e-08-b-47-c-7-aca-9-3-fa-64-a-4-ad-77-d.png",
+      "category": "In Memory Data Structure",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "f132d201-7fc7-426c-ac5c-80b8cb0296ec"
+      ]
+    },
+    {
+      "name": "MemCache_1",
+      "access": "private",
+      "access_icon": "https://th.bing.com/th/id/OIP.g89-VXdv9YYURqSbgJSxBgHaHa?w=512&h=512&rs=1&pid=ImgDetMain",
+      "fileName": "tmp/936296693/InfraForShop/el_ache_1.tf",
+      "type": "aws_elasticache_cluster",
+      "type_icon": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/manage-databases-on-aws/images/12ff1e3adf6232bd122e3d4e33b0c7e0_072219-ce-e-08-b-47-c-7-aca-9-3-fa-64-a-4-ad-77-d.png",
+      "category": "In Memory Data Structure",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "7cf4b20d-573f-4909-9eae-b562fcbdd60a"
+      ]
+    },
+    {
+      "name": "S3_1",
+      "access": "public",
+      "access_icon": "https://cdn-icons-png.flaticon.com/512/1040/1040005.png",
+      "fileName": "tmp/936296693/InfraForShop/s3_1.tf",
+      "type": "aws_s3_bucket",
+      "type_icon": "https://www.crybit.com/wp-content/uploads/2018/05/aws-s3-bucket.svg",
+      "category": "Storage",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+        "7cf4b20d-573f-4909-9eae-b562fcbdd60a"
+      ]
+    }
+  ]
+}
