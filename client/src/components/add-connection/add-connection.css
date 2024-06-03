@@ -1,0 +1,65 @@
+.addCO_container {
+    margin-top: 24px;
+}
+
+.addCO_container_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.addCO_container_title p {
+    font-size: 20px;
+}
+
+.icon_size {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.addCO_form {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.addCO_form.show {
+    max-height: 500px;
+    opacity: 1;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.addCO_input_cont {
+    margin-left: 18px;
+}
+
+.addCO_input_cont input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 4px 4px 12px;
+}
+
+.addCO_container button {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 18px 0px 0px 18px;
+    padding: 8px 4px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.addCO_container button:hover {
+    background-color: green;
+    color: white;
+    transform: scale(1.08);
+    transition: all 0.3s ease;
+}

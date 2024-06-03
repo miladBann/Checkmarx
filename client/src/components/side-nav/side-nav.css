@@ -1,0 +1,11 @@
+.nav_cont {
+    border-right: 2px solid white;
+    width: 300px;
+    padding: 24px;
+    height: 95vh;
+    overflow-y: scroll;
+}
+
+.nav_cont::-webkit-scrollbar {
+    display: none;
+}
