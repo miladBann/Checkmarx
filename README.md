@@ -45,6 +45,7 @@ tests: Jest, react testing library.
 
 8- Now the app is ready to be used.
 
+**in case you turned on the frontend server before the backend just refresh the page after turning the backend on so the graph gets displayed**
 
 ## Testing
 
