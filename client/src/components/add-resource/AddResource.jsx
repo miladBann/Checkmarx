@@ -30,24 +30,29 @@ function AddResource() {
     };
 
     const handleSubmit = async () => {
-        try {
-          const response = await axios.post('http://localhost:8081/resources', {
-            name: name,
-            access: selectedCheckbox,
-            type: type,
-            type_icon: typeIcon,
-            microservices: microserviceID,
-          });
-          console.log('Resource added:', response.data);
-          window.location.reload();
-        } catch (error) {
-          console.error('Error adding resource:', error);
-          alert(error.response.data.error);
-          input1Ref.current.value = "";
-          input2Ref.current.value = "";
-          input3Ref.current.value = "";
-          input4Ref.current.value = "";
+        if (name && type && typeIcon && microserviceID && selectedCheckbox) {
+            try {
+                const response = await axios.post('http://localhost:8081/resources', {
+                  name: name,
+                  access: selectedCheckbox,
+                  type: type,
+                  type_icon: typeIcon,
+                  microservices: microserviceID,
+                });
+                console.log('Resource added:', response.data);
+                window.location.reload();
+            } catch (error) {
+                console.error('Error adding resource:', error);
+                alert(error.response.data.error);
+                input1Ref.current.value = "";
+                input2Ref.current.value = "";
+                input3Ref.current.value = "";
+                input4Ref.current.value = "";
+            }
+        } else {
+            alert("Please fill all the fields");
         }
+        
       };
 
     return (
