@@ -19,19 +19,23 @@ function AddConnection() {
     }
 
     const handleSubmit = async () => {
-        try {
-            const response = await axios.post('http://localhost:8081/add-connection', {
-                microserviceId,
-                resourceName
-            });
-            console.log(response.data.message);
-            window.location.reload();
-        } catch (error) {
-            console.error(error);
-            alert('Error adding connection');
-            input1Ref.current.value = "";
-            input2Ref.current.value = "";
-        }
+        if (microserviceId && resourceName) {
+            try {
+                const response = await axios.post('http://localhost:8081/add-connection', {
+                    microserviceId,
+                    resourceName
+                });
+                console.log(response.data.message);
+                window.location.reload();
+            } catch (error) {
+                console.error(error);
+                alert('Error adding connection');
+                input1Ref.current.value = "";
+                input2Ref.current.value = "";
+            }
+        } else {
+            alert("Please fill all the fields");
+        }   
     }
 
     return (
