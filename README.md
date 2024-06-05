@@ -49,4 +49,4 @@ tests: Jest, react testing library.
 
 ## Testing
 
-- Test are written with jest and the React testing library and you can use the command **npm test** to run them all.
+- Tests are written with jest and the React testing library and you can use the command **npm test** inside the client folder to run them all.
