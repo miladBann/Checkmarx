@@ -1,5 +1,5 @@
 
-# Checkmarx (home assignment).
+# Graph viewer and editor.
 
 Full-Stack application for Checkmarx.  
    
